@@ -1,8 +1,8 @@
-.dropdown {
-    position: relative;
-    display: inline-block;
+// .dropdown {
+//     position: relative;
+//     display: inline-block;
     
-  }
+//   }
   
   .dropdown-content {
     display: none;
@@ -25,4 +25,31 @@
 
   .type-text {
     padding: 20px;
+    display: flex;
+    height: 20px;
+    align-items: center;
+  }
+
+  .arrow {
+    border: solid #859CAD;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .arrow-wrapper{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  .search-wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
   }

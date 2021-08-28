@@ -14,7 +14,7 @@ const HeaderOptions = () => {
                 <Col>
                     Mint an item
                 </Col>
-                <Col>
+                <Col style={{color: "#4F2EE4"}}>
                     Vote/DAO
                 </Col>
                 <Col>

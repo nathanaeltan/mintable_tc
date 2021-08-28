@@ -6,7 +6,7 @@ import './header.styles.scss'
 const Header = () => {
     return (
         <div className="py-3 px-4">
-            <Row className="d-flex justify-content-center mt-3">
+            <Row className="mt-3 d-flex align-items-center">
                 <Col xs="4">
                     <HeaderSeachBar />
                 </Col>
